@@ -325,14 +325,14 @@ document.addEventListener('DOMContentLoaded', function() {
     // Open PDF function
     function openPDF() {
         // Try to open PDF in new tab
-        const pdfWindow = window.open('Frame.pdf', '_blank');
+        const pdfWindow = window.open('Patidinov_Muhammadjon.pdf', '_blank');
         
         // If popup blocked, provide download link
         if (!pdfWindow || pdfWindow.closed || typeof pdfWindow.closed == 'undefined') {
             // Create download link
             const link = document.createElement('a');
-            link.href = 'Frame.pdf';
-            link.download = 'Frame.pdf';
+            link.href = 'Patidinov_Muhammadjon.pdf';
+            link.download = 'Patidinov_Muhammadjon.pdf';
             link.target = '_blank';
             
             // Trigger download
